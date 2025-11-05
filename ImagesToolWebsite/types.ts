@@ -1,3 +1,5 @@
+import React from 'react';
+
 export enum ToolType {
   BACKGROUND_REMOVER = 'BACKGROUND_REMOVER',
   WATERMARK_REMOVER = 'WATERMARK_REMOVER',
