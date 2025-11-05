@@ -81,7 +81,7 @@ export const handler = async (event: { httpMethod: string; body: string }) => {
       body: JSON.stringify({ resultBase64 }),
     };
 
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error in Netlify function:', error);
     return {
       statusCode: 500,
